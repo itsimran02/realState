@@ -33,7 +33,7 @@ const Navbar = () => {
     setIsOpen(false);
   }
   return (
-    <header ref={ref} className="py-4">
+    <header ref={ref} className="py-4 px-4">
       <div className="container mx-auto flex justify-between items-center ">
         <div>
           <h2>REALSTYLE</h2>
@@ -72,7 +72,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 ">
           <button className="rounded-[35px] py-2 px-6 primary-button">
             Login
           </button>
