@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useDetectClickOutside } from "react-detect-click-outside";
 import { MdMenu } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useDetectClickOutside({
     onTriggered: handleOutsideClick,
@@ -35,8 +36,10 @@ const Navbar = () => {
   return (
     <header ref={ref} className="py-4 px-4">
       <div className="container mx-auto flex justify-between items-center ">
-        <div>
-          <h2>REALSTYLE</h2>
+        <div className="logo">
+          <NavLink to="/" className="">
+            <h2>REALSTYLE</h2>
+          </NavLink>
         </div>
         <nav
           className={`md:block z-10  ${
@@ -64,11 +67,14 @@ const Navbar = () => {
             </li>
             <li>
               {" "}
-              <a href="#"> Location</a>
+              <a> Location</a>
             </li>
             <li>
               {" "}
-              <a href="#"> Contact</a>
+              <NavLink to="contact" href="#">
+                {" "}
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -88,4 +94,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

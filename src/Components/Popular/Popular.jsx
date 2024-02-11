@@ -6,12 +6,12 @@ const Popular = () => {
     <section className="mt-16 px-4">
       <div className="container mx-auto ">
         {/* top */}
-        <div>
-          <h2 className="lg:text-[40px] md:text-[35px] m-0 ">
+        <div className="flex flex-col gap-4">
+          <h2 className="text-[40px]  m-0 leading-[51px]">
             Our most popular Hotels
           </h2>
-          <div className="flex justify-between items-end">
-            <p className="text-[16px] m-0">
+          <div className="flex justify-between items-end flex-wrap gap-4">
+            <p className="text-[16px] m-0 leading-[28px]">
               Lorem Ipsum is simply dummy text of the
               printing and <br /> typesetting industry.
             </p>
@@ -23,9 +23,9 @@ const Popular = () => {
         {/* bottom */}
         <div className=" gap-4 mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
           {/* 1st */}
-          <div className="flex-1 bg-[#FAFAFA] ">
+          <div className="flex-1 bg-[#FAFAFA]  hover:shadow-md cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out">
             <div>
-              <img className="w-full" src="/hotel-1.png" />
+              <img className="w-full " src="/hotel-1.png" />
             </div>
             <div className="py-6 px-4 flex flex-col gap-2 rounded-bl-[16px] rounded-br-[16px]">
               <p className="m-0 text-[14px] text-secondary">
@@ -43,7 +43,7 @@ const Popular = () => {
             </div>
           </div>
           {/* 2nd */}
-          <div className="flex-1 bg-[#FAFAFA] rounded-tl-[16px] rounded-tr-[16px]">
+          <div className="flex-1 bg-[#FAFAFA] rounded-tl-[16px] rounded-tr-[16px] hover:shadow-md cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out">
             <div>
               <img className="w-full" src="/hotel-2.png" />
             </div>
@@ -63,7 +63,7 @@ const Popular = () => {
             </div>
           </div>
           {/* 3rd */}
-          <div className="flex-1 bg-[#FAFAFA] rounded-tl-[16px] rounded-tr-[16px]">
+          <div className="flex-1 bg-[#FAFAFA] rounded-tl-[16px] rounded-tr-[16px] hover:shadow-md cursor-pointer transform hover:scale-105 transition duration-300 ease-in-out">
             <div>
               <img className="w-full" src="/hotel3.png" />
             </div>
