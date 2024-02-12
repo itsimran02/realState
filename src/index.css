@@ -55,3 +55,11 @@ button:hover {
 .logo a {
   text-decoration: none;
 }
+
+/* ----------------swiper styles */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(14, 13, 13, 0.432);
+  /* color: red; */
+}

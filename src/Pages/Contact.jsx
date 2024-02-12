@@ -35,7 +35,7 @@ export default function ContactUs() {
 
   return (
     <div>
-      <div className="p-3 max-w-7xl m-auto">
+      <div className="p-3 max-w-7xl m-auto ">
         <div>
           <div className="title-banner my-6 py-24 bg-secondary text-center rounded-lg sm:my-10">
             <h1 className="text-3xl font-bold text-white mx-6 md:text-5xl sm:text-4xl font-openSans">

@@ -30,7 +30,7 @@ const Facilities = () => {
         {/* right section  */}
 
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:w-2/3">
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdOutlineComputer
                 size={35}
@@ -39,13 +39,13 @@ const Facilities = () => {
             </div>
             <p>Private Workspace</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdOutlinePushPin size={35} color="#24ab70" />
             </div>
             <p>Parking Area</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdOutlineDinnerDining
                 size={35}
@@ -54,25 +54,25 @@ const Facilities = () => {
             </div>
             <p>Breakfast</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdOutlineWifi size={35} color="#24ab70" />
             </div>
             <p>Free Wifi</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdElectricBolt size={35} color="#24ab70" />
             </div>
             <p>Free Electricity</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdOutlineWater size={35} color="#24ab70" />
             </div>
             <p>Swimming Pool</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdSportsMartialArts
                 size={35}
@@ -81,7 +81,7 @@ const Facilities = () => {
             </div>
             <p>exercise Space</p>
           </div>
-          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center shadow-md  hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+          <div className="flex flex-col items-center  py-6 px-4 gap-2 justify-center   hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
             <div>
               <MdCheckCircleOutline
                 size={35}
