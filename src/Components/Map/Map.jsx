@@ -2,7 +2,7 @@ import React from "react";
 
 const Map = () => {
   return (
-    <section className="mt-16 mx-4">
+    <section className="mt-16">
       <div className="container mx-auto h-[677px] relative">
         <div
           className="h-full w-full"

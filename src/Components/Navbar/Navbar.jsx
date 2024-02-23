@@ -79,9 +79,11 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex items-center gap-4 ">
+          <NavLink to="login">
           <button className="rounded-[35px] py-2 px-6 primary-button">
             Login
           </button>
+          </NavLink>
           <button
             className="md:hidden w-full bg-white"
             onClick={handleToggleMenu}

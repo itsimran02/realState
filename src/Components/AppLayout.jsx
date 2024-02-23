@@ -10,7 +10,9 @@ const AppLayout = () => {
       <main>
         <Outlet />
       </main>
+      <section className="bg-black pb-8 p-8 sm:pt-12">
       <Footer />
+      </section>
     </>
   );
 };
