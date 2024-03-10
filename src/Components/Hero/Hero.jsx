@@ -49,7 +49,7 @@ const Hero = () => {
             <img src="/cale.png" />
             <span className="flex flex-col gap-1">
               <p className="m-0 text-[16px] md:text-[20px] font-normal text-[#222222]">
-                Chack in
+                Check in
               </p>
               <p className="m-0 hidden md:block text-[#555555] text-[14px]">
                 10 Jun 2021

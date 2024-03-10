@@ -1,150 +1,100 @@
 import React from "react";
 import {
-  FaFacebook,
+  FaFacebookF,
   FaTwitter,
   FaInstagram,
+  FaGooglePlay,
+  FaAppStoreIos,
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-8 px-4">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Column 1 */}
-        <div className="flex flex-col justify-between">
-          <div>
-            <p className="text-sm text-gray-900 leading-[28px]">
-              <span className="font-bold">Lorem Ipsum</span>{" "}
-              is simply dummy text of the printing and
-              typesetting industry.
+    <footer className="text-center text-white lg:text-left">
+      <div className="text-center md:text-left">
+        <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="">
+            <h2
+              className="mb-4 text-white flex items-center justify-center font-semibold uppercase md:justify-start">
+              REALSTYLE
+            </h2>
+            <p className="text-white w-60 max-sm:w-full">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ut expedita illum, laborum quidem nam dolores maxime provident amet consequatur!
             </p>
-            <div className="flex mt-4 space-x-4">
-              <a
-                href="#"
-                className="hover:text-gray-300"
-                style={{ textDecoration: "none" }}
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300"
-                style={{ textDecoration: "none" }}
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300"
-                style={{ textDecoration: "none" }}
-              >
-                <FaInstagram />
-              </a>
+            <div className='flex items-center gap-5 mt-4 max-sm:justify-center'>
+              <div className='flex justify-center items-center w-7 h-7 bg-white rounded-full'>
+                <a href="#" target="_blank" className="pt-1"><FaFacebookF /></a>
+              </div>
+              <div className='flex justify-center items-center w-7 h-7 bg-white rounded-full'>
+                <a href="#" target="_blank" className="pt-1"><FaTwitter /></a>
+              </div>
+              <div className='flex justify-center items-center w-7 h-7 bg-white rounded-full'>
+                <a href="#" target="_blank" className="pt-1"><FaInstagram /></a>
+              </div>
             </div>
           </div>
-        </div>
-        {/* Column 2 */}
-        <div className="flex flex-col justify-between">
-          <div>
-            <p className="font-bold text-gray-900 text-[16px] leading-[28px]">
+
+          <div className="">
+            <h2
+              className="mb-4 text-white flex justify-center font-semibold uppercase md:justify-start">
               Home
+            </h2>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Booking</a>
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Booking
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Facilities
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Location
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Contact
-              </a>
-            </div>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Facilities</a>
+            </p>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Location</a>
+            </p>
+            <p>
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Contact</a>
+            </p>
           </div>
-        </div>
-        {/* Column 3 */}
-        <div className="flex flex-col justify-between">
-          <div>
-            <p className="font-bold text-gray-900 text-[16px] leading-[28px]">
+
+          <div className="">
+            <h2
+              className="mb-4 text-white flex justify-center font-semibold uppercase md:justify-start">
               Help
+            </h2>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >About Us</a>
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                About Us
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Help center
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Privacy policy
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                FAQs
-              </a>
-            </div>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Help Center</a>
+            </p>
+            <p className="mb-4">
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#" className="text-neutral-600 no-underline hover:underline dark:text-neutral-200"
+              >FAQs</a>
+            </p>
           </div>
-        </div>
-        {/* Column 4 */}
-        <div className="flex flex-col justify-between">
+
           <div>
-            <p className="font-bold text-gray-900 text-[16px] leading-[28px]">
-              Get the app
+            <h2
+              className="mb-4 text-white flex justify-center font-semibold uppercase md:justify-start">
+              Get the App
+            </h2>
+            <p className="mb-4 text-white flex items-center justify-center md:justify-start">
+              <FaAppStoreIos /><span>&nbsp;</span> iOS App
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                iOS app
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 block"
-                style={{ textDecoration: "none" }}
-              >
-                Android app
-              </a>
-            </div>
+            <p className="mb-4 text-white flex items-center justify-center md:justify-start">
+              <FaGooglePlay /><span>&nbsp;</span> Android App
+            </p>
           </div>
         </div>
       </div>
     </footer>
-  );
+  )
 };
 
 export default Footer;
